@@ -1,0 +1,5 @@
+name: polymer_fontawesome
+version: 0.0.1
+description: Font awesome icons to use in Polymer 1-2 components.
+author: Dmitriy Vasilyev <kelegorm1@gmail.com>
+homepage: https://github.com/kelegorm/dart-polymer-fontawesome-iconset

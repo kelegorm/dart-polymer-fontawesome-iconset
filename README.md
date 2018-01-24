@@ -1,10 +1,6 @@
-**This package was deprecated. Fill PRs to the original repo: [philya/font-awesome-polymer-icons](https://github.com/philya/font-awesome-polymer-icons)**
-
-----
-
 [Font Awesome](https://github.com/FortAwesome/Font-Awesome) as a [PolymerElements/iron-iconset-svg](https://github.com/PolymerElements/iron-iconset-svg) component.
 
-# Set Up
+# Set Up pubsec.yaml
 ````sh
 # bower
 bower install fontawesome-iconset
@@ -13,9 +9,14 @@ npm install fontawesome-iconset
 ````
 # Use
 
-Link your custom component alongside with other Polymer dependencies
+Be sure you import next items from your repositories something like
+
+<link rel="import" href="iron-icon.html">
+<link rel="import" href="iron-iconset-svg.html">
+
+Link your custom component alongside with other Polymer dependencies (in index.html for instance)
 ````html
-<link rel="import" href="bower_components/fontawesome-iconset/fa-all.html">
+<link rel="import" href="packages/polymer_fontawesome/fa-all.html">
 ````
 Use the iconset
 ````html
@@ -23,7 +24,7 @@ Use the iconset
 ````
 You also can refer to an specific category of icons:
 ````html
-<link rel="import" href="bower_components/fontawesome-iconset/fa-gender.html">
+<link rel="import" href="packages/polymer_fontawesome/fa-gender.html">
 ````
 And use it like this:
 ````html
